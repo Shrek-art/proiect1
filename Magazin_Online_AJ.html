@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Magazin Online Jocuri</title>
+    <link rel="stylesheet" href="Magazin_Online.css">
+    <style>
+        .games-container {
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .game-box {
+            background: linear-gradient(to right, rgba(255,0,0,0.4),rgba(0,0,0,0.4));
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 225px;
+        }
+
+        .game-img {
+            width: 100%;
+            height: auto;
+            max-height: 130px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        .game-title {
+            color: white;
+            font-size: 14px;
+            font-family: Arial;
+            text-align: center;
+            margin-top: 5px;
+        }
+		
+		.row-link {
+			text-decoration: none;
+			color: white;
+			transition: color 0.3s ease-in-out;
+		}
+		.row a:hover {
+			color: black;
+		}
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="image">
+                <img src= "33028698_7941373.png" class="logo">
+            </div>
+            <div class="text">
+                <form>
+					<input type="text" style = "font-family: Arial; color: gray; border: none; background-color: lightgray; border-radius: 15px; padding: 10px; width: 400px;" name="Cautare" placeholder=" Începe o nouă căutare...">
+    </form>
+				</form>
+			</div>
+        <div class="icon-container">
+                <div class="icon">
+                    <img src="shopping-cart.png" class="icon-img">
+                </div>
+                    <div class="icon">
+                    <img src="discovery.png" class="icon-img">
+                </div>
+            </div>
+    </div>
+		</div>
+        <p class="centered-paragraph">Trending</p>
+    <div class="trending">
+        <img src="header.jpg" class="image-inside" alt="Rezident Evil 7: Biohazard">
+        <p class="denumire">Rezident Evil 7: Biohazard <br>
+            20.99$
+        </p>
+    </div>
+	<table border="1" align="center">
+		<tr class="row">
+			<th><a href = "Prim-Section.html" class="row-link">New</a></th>
+			<th><a href = "Horror-Section.html" class="row-link">Horror</a></th>
+			<th><a href = "Story-Section.html" class="row-link">Story</a></th>
+			<th><a href = "Adventure-Section.html" class="row-link">Adventure</a></th>
+		</tr>
+	</table>
+    <div class="games-container">
+        <div class="game-box"> <a href="R.E.P.O.html" class= "game-site">
+            <img src = "repo-button-1740672104138.jpg" class="game-img">
+            <p class="game-title">R.E.P.O</a></p> </div>
+        <div class="game-box"> <a href ="TWD.html" class="game-site">
+            <img src = "images.jpg" class="game-img">
+            <p class="game-title">TWD: A TELLTALE GAMES SERIES</a></p></div>
+		<div class = "game-box"><a href="PoppyPlayTime3.html" class="game-site">
+			<img src = "pp3.jpg" class = "game-img">
+			<p class = "game-title">Poppy Playtime 3</a></p></div>
+		<div class = "game-box"><a href="PJ.html" class= "game-site">
+			<img src = "4737.jpg" class = "game-img">
+			<p class = "game-title">Project Zomboid</a></p></div>
+		<div class = "game-box"><a href="GD.html" class="game-site">
+			<img src = "Logo_of_Geometry_Dash.svg.png" class = "game-img">
+			<p class = "game-title">Geometry Dash</p></div>
+    </div>
+	
+</body>
+</html>
