@@ -1,0 +1,229 @@
+body {
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.text {
+    font-size: 18px;
+    text-indent: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.image {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: right;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.icon-img {
+    width: 25px;
+    height: 25px;
+}
+
+.container2 {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.trending {
+    width: 450px;
+    margin: 12px auto;
+    height: 250px;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.image-inside {
+    width: 425px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: auto;
+}
+
+.denumire {
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+    padding: 5px 10px;
+    text-align: left;
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+.centered-paragraph {
+    text-align: left;
+    margin: 15px 0 0 540px;
+    font-family: Arial;
+    font-size: 24px;
+    color: white;
+}
+
+table,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px 45px 2px 45px;
+    background-color: #000000;
+    color: white;
+    font-family: Arial;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+th:hover {
+    background-color: lightgray;
+    color: black;
+    border-color: lightgray;
+}
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.game-box {
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: calc((100% - (20px * 5)) / 6);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.game-box:hover {
+    transform: scale(1.05);
+}
+
+.game-img {
+    width: 100%;
+    height: auto;
+    max-height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.game-title {
+    color: white;
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.game-site {
+    text-decoration: none;
+    color: white;
+}
+
+.row-link.active {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.row th.active {
+    background-color: white !important;
+    color: black !important;
+}
+
+.row-link {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.row-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.search-input {
+    font-family: Arial;
+    color: gray;
+    border: none;
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 10px;
+    width: 400px;
+}
+
+.login-form {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+.login-form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: darkred;
+}
